@@ -21,11 +21,11 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Start Backend
-      run: npm run start-be &
+      run: npm run start-be
     - name: Should wait for backend to start
       run: sleep 10
     - name: Start Frontend
-      run: npm run start-fe &
+      run: npm run start-fe
     - name: Should wait for frontend to start
       run: sleep 10
       
