@@ -4,7 +4,7 @@
     "description": "Online Book Library Single Page Application",
     "main": "index.html",
     "scripts": {
-        "test": "npx playwright test tests/ui.test.js",
+        "test": "npx playwright test",
         "start-fe": "http-server -a localhost -p 3000 -P http://localhost:3000? -c-1",
         "start-be":"node server/server.js"
        
